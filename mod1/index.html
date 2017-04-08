@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		//ao carregar o DOM
+		$(document).ready(function(){
+			alert('DOM CARREGADO...');
+		});
+
+		$(function(){
+			alert('DOM CARREGADO... CHAMADA DE FORMA REDUZIDA');
+		});
+
+		//apos todos os elementos do DOM serem caregados
+		$(window).ready(function(){
+			alert('ELEMENTOS CARREGADOS');
+		});	
+	</script>
+</head>
+<body>
+	<img src="https://img.gawkerassets.com/img/18gnjw6jdmvfcjpg/ku-xlarge.jpg">
+</body>
+</html>
